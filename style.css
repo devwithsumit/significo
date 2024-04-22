@@ -1,0 +1,43 @@
+body[theme = "black"]{
+    background-color: black;
+}
+body[theme = "black"] .section{
+    color: white;
+}
+body[theme = "white"]{
+    background-color: white;
+}
+body[theme = "white"] .section{
+    color: black;
+}
+body[theme = "cyan"]{
+    background-color: #AEDEE0;
+}
+body[theme = "cyan"] .section{
+    color: #202a2a;
+}
+body[theme = "salmon"]{
+    background-color: #F09D71;
+}
+body[theme = "salmon"] .section{
+    color: #241912;
+}
+.staff .bluelayer{
+    background-color: #2544EE;
+}
+.videocontainer{
+    clip-path: circle(var(--clip) at 47% 46.5%);
+}
+*::selection{
+    color: white;
+    background-color: #F09D71;
+}
+body{
+    transition: background-color ease-in-out .3s;
+}
+.page2::-webkit-scrollbar{
+    display: none;
+}
+.rightscroller .box{
+    transition: background-color ease .3s,color ease .3s, width ease .3s;
+}
